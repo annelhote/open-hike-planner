@@ -56,7 +56,7 @@ const Trail = () => {
   useEffect(() => {
     const getGpxFromTrailId = async () => {
       const trailId = params?.trailId;
-      const file = await fetch(`/open-trail/gpx/${trailId}.gpx`);
+      const file = await fetch(`/open-hike-planner/gpx/${trailId}.gpx`);
       const _gpx = await file.text();
       setSettings({
         gpx: _gpx,
@@ -233,7 +233,7 @@ const Trail = () => {
   return (
     <>
       {gpx && (
-        <Box className="open-trail" sx={{ flexGrow: 0.75 }}>
+        <Box className="open-hike-planner" sx={{ flexGrow: 0.75 }}>
           <Grid2
             container
             size={{ xs: 4, sm: 8, md: 12 }}

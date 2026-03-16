@@ -1,4 +1,4 @@
-# Open Trail
+# Open Hike Planner
 
 Outil d'assitance en ligne à l'organisation de randonnées pédestres ou cyclistes longues distances.
 
@@ -166,7 +166,7 @@ Voici ce qu'il y avait dans mon sac à dos en 2017
 ## Website
 
 https://create-react-app.dev/docs/getting-started/
-`npx create-react-app open-trail`
+`npx create-react-app open-hike-planner`
 
 https://www.npmjs.com/package/maplibre-gl
 `npm i maplibre-gl`

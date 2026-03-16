@@ -1,6 +1,6 @@
 {
-  "name": "open-trail",
-  "homepage": "https://annelhote.github.io/open-trail/",
+  "name": "open-hike-planner",
+  "homepage": "https://annelhote.github.io/open-hike-planner/",
   "version": "0.0.1",
   "private": true,
   "workspaces": [

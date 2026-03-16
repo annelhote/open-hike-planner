@@ -22,7 +22,7 @@ const Blog = () => {
   }, [params.id]);
 
   return (
-    <Box className="open-trail blog" sx={{ flexGrow: 0.75 }}>
+    <Box className="open-hike-planner blog" sx={{ flexGrow: 0.75 }}>
       <Breadcrumbs aria-label="breadcrumb" color="color.secondary">
         <Link color="inherit" href="#" underline="hover">
           Open Trail
