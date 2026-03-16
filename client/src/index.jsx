@@ -10,6 +10,7 @@ import Blog from "./pages/blog";
 import BlogHome from "./pages/blog-home";
 import ErrorPage from "./pages/error-page";
 import Home from "./pages/home";
+import Tools from "./pages/tools";
 import Trail from "./pages/trail";
 import Trails from "./pages/trails";
 
@@ -22,6 +23,11 @@ const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/tools",
+    element: <Tools />,
     errorElement: <ErrorPage />,
   },
   {

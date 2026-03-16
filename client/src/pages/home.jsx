@@ -18,6 +18,11 @@ const Home = () => {
               Blog
             </Link>
           </li>
+          <li>
+            <Link color="inherit" href="#/tools" underline="hover">
+              Outils pour GPX
+            </Link>
+          </li>
         </ul>
       </div>
     </Box>

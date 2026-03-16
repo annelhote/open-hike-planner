@@ -189,3 +189,17 @@ https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example#Pub_tou
 https://en.wikipedia.org/wiki/Haversine_formula
 * Amenities
 https://wiki.openstreetmap.org/wiki/Key:amenity#Sustenance
+
+
+
+Stack technique:
+
+Backend:
+python fastapi
+
+Run API
+> fastapi dev main.py
+http://127.0.0.1:8000/
+
+API Docs swagger
+http://127.0.0.1:8000/docs

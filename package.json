@@ -10,13 +10,15 @@
   "dependencies": {
     "concurrently": "^8.0.1"
   },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
   "author": "annelhote",
   "license": "MIT",
   "scripts": {
-    "starNext": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "npm run client",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "build": "npm -w client run build",
     "client": "npm -w client run start",
-    "server": "npm -w server run dev"
+    "server": "npm -w server fastapi run main.py"
   }
 }

@@ -35,8 +35,6 @@ import {
   overloadGpx,
 } from "../utils";
 
-const BASE_URL = process.env.REACT_APP_API_KEY;
-
 const Trail = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
@@ -58,7 +56,7 @@ const Trail = () => {
   useEffect(() => {
     const getGpxFromTrailId = async () => {
       const trailId = params?.trailId;
-      const file = await fetch(`${BASE_URL}/gpx/${trailId}.gpx`);
+      const file = await fetch(`/open-trail/gpx/${trailId}.gpx`);
       const _gpx = await file.text();
       setSettings({
         gpx: _gpx,
