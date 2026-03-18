@@ -1,5 +1,7 @@
 # Open Hike Planner
 
+⚠️ This repository has migrated to https://codeberg.org/annelhote/open-hike-planner ⚠️
+
 Outil d'assitance en ligne à l'organisation de randonnées pédestres ou cyclistes longues distances.
 
 ## A ouvrir
